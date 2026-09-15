@@ -6,7 +6,7 @@ services:
     image: phantomsignal:latest
     container_name: phantomsignal
     ports:
-      - "5000:5000"
+      - "127.0.0.1:5000:5000"
     volumes:
       - phantomsignal-data:/app/data
       - phantomsignal-exports:/app/exports
