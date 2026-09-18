@@ -20,7 +20,7 @@
   text-decoration:none; white-space:nowrap; flex-shrink:0; }
 .dork-run:hover { text-shadow:0 0 6px rgba(0,255,65,0.6); }
 </style>
-<div class="page-header">
+<div class="page-header" data-motion>
   <div class="page-title-block">
     <div class="breadcrumb">
       <a href="{{ url_for('scans.list_scans') }}" class="bc-link">Scans</a>
@@ -57,7 +57,7 @@
 </div>
 
 <!-- Scan meta strip -->
-<div class="scan-meta-strip">
+<div class="scan-meta-strip" data-motion-scroll>
   <div class="meta-item">
     <span class="meta-label">TYPE</span>
     <span class="meta-val">{{ scan.scan_type or '—' }}</span>

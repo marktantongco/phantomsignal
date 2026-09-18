@@ -1,0 +1,135 @@
+/* ============================================================
+   PHANTOMSIGNAL MOTION LAYER  //  Tiered Cascade Styles
+
+   Companion to js/motion.js. Implements the tiers that are pure
+   CSS and the safety contracts the JS orchestrator relies on:
+
+     Tier 0 — cross-document view transitions (route changes)
+     Tier 2 — ambient-state hooks (activated by JS post-intro)
+     Tier 4 — micro-interactions (hover / focus polish)
+
+   plus:
+     · the `motion-pre` pre-reveal veil (JS removes it)
+     · Lenis smooth-scroll base styles
+     · a global prefers-reduced-motion kill-switch
+
+   Design rules enforced here and in motion.js:
+     · one driver per property (GSAP neutralises CSS transitions
+       on any property it takes over, e.g. .stat-bar-fill width)
+     · animate transform/opacity only (compositor thread)
+     · everything degrades to instant-render: no-JS, offline CDN,
+       or reduced-motion all show fully visible content
+   ============================================================ */
+
+/* ── Tier 0 · Route transitions (native, zero bundle) ──────────
+   Same-origin MPA navigations cross-fade. Chrome/Edge 126+.
+   Unsupported browsers simply hard-cut — no cost. */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.28s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Persistent chrome: the nav bar snapshots as its own layer so it
+   stays rock-steady while the page content cross-fades beneath it. */
+.nav-bar {
+  view-transition-name: nav-bar;
+}
+
+/* ── Pre-reveal veil ───────────────────────────────────────────
+   Added by an inline bootstrap in base.html <head> BEFORE first
+   paint, but only when motion will actually run (JS available,
+   no reduced-motion, intro not yet played this tab). motion.js
+   removes the class after it has set deterministic from-states,
+   and the bootstrap removes it on a failsafe timer so a blocked
+   CDN can never leave content invisible.
+   Opacity only — transforms are owned by GSAP from-states. */
+html.motion-pre .nav-bar,
+html.motion-pre [data-motion],
+html.motion-pre [data-motion-stagger] > *,
+html.motion-pre [data-motion-scroll],
+html.motion-pre [data-motion-scroll-stagger] > * {
+  opacity: 0;
+}
+
+/* ── Tier 4 · Micro-interactions ───────────────────────────────
+   Hover/focus polish layered onto the operations-console system.
+   Transitions only on transform/opacity/box-shadow — cheap. */
+.btn {
+  transition: all 0.2s, transform 0.15s ease;
+}
+.btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+.btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+/* Row hover was an instant background swap — soften it. */
+.data-table td {
+  transition: background 0.15s ease;
+}
+
+.api-chip {
+  transition: transform 0.15s ease, border-color 0.2s ease, background 0.2s ease;
+}
+.api-chip:hover {
+  transform: translateY(-1px);
+}
+
+/* Keyboard users get a crisp, consistent focus ring. */
+:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Lenis smooth-scroll base ──────────────────────────────────
+   Lenis adds .lenis / .lenis-smooth to <html> when active. */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important; /* native smooth-scroll fights Lenis */
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ── Reduced motion — full kill-switch ─────────────────────────
+   The console previously shipped no reduced-motion support at all;
+   this disables every keyframe loop (glitch, sweep, pulse, blink),
+   every CSS transition, route transitions, and the pre-veil. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+  }
+
+  /* Veil must never hold content back when motion is off. */
+  html.motion-pre .nav-bar,
+  html.motion-pre [data-motion],
+  html.motion-pre [data-motion-stagger] > *,
+  html.motion-pre [data-motion-scroll],
+  html.motion-pre [data-motion-scroll-stagger] > * {
+    opacity: 1;
+  }
+}

@@ -2,10 +2,10 @@
 {% block title %}Dashboard{% endblock %}
 
 {% block content %}
-<div class="page-header">
+<div class="page-header" data-motion>
   <div class="page-title-block">
     <div style="display:flex;align-items:center;gap:1rem;">
-      <span class="page-glyph" aria-hidden="true">∿</span>
+      <span class="page-glyph" aria-hidden="true" data-motion-ambient>∿</span>
       <div>
         <h1 class="page-title glitch-text" data-text="Dashboard">Dashboard</h1>
         <p class="page-subtitle">Your reconnaissance overview</p>
@@ -19,8 +19,8 @@
   </div>
 </div>
 
-<!-- Stats row -->
-<div class="stats-grid">
+<!-- Stats row — intro Tier 1: cards land one after another (60ms cadence) -->
+<div class="stats-grid" data-motion-stagger>
   <a href="{{ url_for('scans.list_scans') }}" class="stat-card" title="View all scans">
     <div class="stat-icon neon-green">◫</div>
     <div class="stat-value neon-green">{{ stats.total_scans }}</div>
@@ -56,8 +56,8 @@
 <!-- Main content columns -->
 <div class="dashboard-columns">
 
-  <!-- Recent missions -->
-  <div class="dash-panel">
+  <!-- Recent missions — Tier 3: revealed when scrolled into view -->
+  <div class="dash-panel" data-motion-scroll>
     <div class="panel-header">
       <span class="panel-title">◫ RECENT SCANS</span>
       <a href="{{ url_for('scans.list_scans') }}" class="panel-link">VIEW ALL →</a>
@@ -120,7 +120,7 @@
   <div class="dash-sidebar">
 
     <!-- Live terminal feed -->
-    <div class="dash-panel terminal-panel">
+    <div class="dash-panel terminal-panel" data-motion-scroll>
       <div class="panel-header">
         <span class="panel-title">◉ ACTIVITY</span>
         <span class="terminal-blink">█</span>
@@ -138,13 +138,13 @@
     </div>
 
     <!-- API status panel -->
-    <div class="dash-panel">
+    <div class="dash-panel" data-motion-scroll>
       <div class="panel-header">
         <span class="panel-title">⚙ DATA SOURCES</span>
         <a href="{{ url_for('settings.settings_page') }}" class="panel-link">CONFIGURE →</a>
       </div>
       <div class="panel-body">
-        <div class="api-grid">
+        <div class="api-grid" data-motion-scroll-stagger>
           {% for api in api_status[:16] %}
           <div class="api-chip {% if api.is_configured %}api-online{% else %}api-offline{% endif %}">
             <span class="api-dot"></span>
@@ -161,7 +161,7 @@
     </div>
 
     <!-- Quick launch panel -->
-    <div class="dash-panel">
+    <div class="dash-panel" data-motion-scroll>
       <div class="panel-header">
         <span class="panel-title">◈ QUICK SCAN</span>
       </div>

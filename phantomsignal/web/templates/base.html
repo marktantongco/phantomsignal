@@ -11,8 +11,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/phantomsignal.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/motion.css') }}">
   <!-- Apply saved theme before first paint (dark = default/no attribute). -->
   <script>(function(){try{var t=localStorage.getItem('phantomsignal-theme');if(t&&t!=='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <!-- Motion pre-reveal veil: hide cascade targets BEFORE first paint, but only
+       when the intro will actually run (no reduced-motion, not yet played this
+       tab). Failsafe: if motion.js never boots (blocked CDN), the veil lifts
+       itself so content is never stranded invisible. -->
+  <script>(function(){try{
+    var d=document.documentElement;
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+    if(sessionStorage.getItem('phantomsignal-intro-played')==='1')return;
+    d.classList.add('motion-pre');
+    addEventListener('DOMContentLoaded',function(){
+      setTimeout(function(){d.classList.remove('motion-pre')},1600);
+    });
+  }catch(e){}})();</script>
   {% block head_extra %}{% endblock %}
 </head>
 <body>
@@ -118,6 +132,12 @@
   <!-- Core scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.min.js"></script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <!-- Motion cascade: deferred, order-guaranteed, fully optional.
+       If a CDN is unreachable, motion.js degrades to instant-render. -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script defer src="{{ url_for('static', filename='js/motion.js') }}"></script>
   {% block scripts %}{% endblock %}
 </body>
 </html>
