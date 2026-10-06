@@ -1,0 +1,324 @@
+# Phase 3 - Interior Prompt Deck: Cozy Cottage (Bold & Easy)
+
+**Spec lock:** 8.5 x 8.5 in trim | 40 interior pages | bold & easy | adult coloring | list price $9.99
+
+Every prompt below is `STYLE LOCK + subject + NEGATIVE LOCK`, pre-assembled so you can copy one line into any image model and get a page that matches the other 39.
+
+---
+
+## 1. The two locks (copy these once, understand them forever)
+
+### STYLE LOCK (prefix - goes before every subject)
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides.
+```
+
+### NEGATIVE LOCK (suffix - goes after every subject)
+
+```
+NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+The locks are the entire game. 40 pages generated with 40 different phrasings look like a clip-art bundle. 40 pages generated through one locked prefix look like one artist's book.
+
+---
+
+## 2. The 40 pages
+
+### Outside the Cottage - pages 01-08
+
+**01. The Round Door** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A small cozy stone cottage front with a round wooden door, two round windows with flower boxes overflowing with tulips, a curved stone step, a lantern hanging beside the door, and three flat stepping stones leading up to it. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Your cover promise page. Keep the door and windows BIG - this is the page reviewers photograph.
+
+**02. Chimney Smoke** - Object vignette - 6-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A cottage rooftop corner with a stone chimney and three big curling puffs of smoke rising from it, three simple swallows in flight, and a weather vane on the ridge. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Smoke puffs must be solid closed shapes, not wispy lines - wispy = fiddly.
+
+**03. The Garden Path** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A winding stone path through grass with a tall lantern on a post beside it, three toadstool mushrooms, a small watering can set down on the path, and two butterflies. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> CUT LIST candidate if you must ship a 36-design book.
+
+**04. Cottage at Dusk** - Hero scene - 10-12 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A cozy cottage at night with four warm glowing square windows, a lantern lit beside the door, five fireflies drawn as simple dots with tiny wings, and a crescent moon with four stars. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> TRAP: 'glowing' must render as WHITE with a thick outline, never gray fill. If it comes back gray, add 'white windows, unfilled windows'.
+
+**05. The Vegetable Patch** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A raised garden bed with three carrots with leafy tops, two cabbages, a trowel stuck in the soil, and a watering can resting on the edge of the bed. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**06. The Wishing Well** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. An old stone well with a shingled roof, a bucket hanging from a rope over a pulley, ivy climbing one side, and five simple flowers growing at its base. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**07. The Firewood Stack** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A neat stack of split logs against a cottage wall, a round chopping stump with an axe stuck into it, and a curious squirrel holding an acorn on top of the stump. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**08. The Front Gate** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A white picket garden gate left slightly open with a mailbox on a post beside it, two parcels tied with string resting on the ground, and a small garden gnome with a pointed hat. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Parcels and envelopes must be BLANK - no stamps, no writing, no address lines.
+
+### Kitchen & Hearth - pages 09-16
+
+**09. The Wood Stove** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A cast-iron wood-burning kitchen stove with a round kettle on top, a pot on a second burner, an oven mitt hanging from a hook, and a small pile of firewood stacked beside it. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**10. The Pantry Shelf** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A wooden pantry shelf holding five unlabeled jars of preserves, two tall bottles, a tin can, and a bundle of wheat stalks leaning at one end. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> TRAP: jars must be BLANK. AI loves to invent labels. Say 'unlabeled, no writing' twice if needed.
+
+**11. Baking Day** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A kitchen table with a round loaf of bread, a rolling pin, a sack of flour, a mixing bowl, and three eggs resting in a small basket. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**12. Pie on the Sill** - Object vignette - 6-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A fruit pie cooling on an open windowsill with three curls of steam rising from it, a checked cloth beneath it, and a spoon resting on a small plate. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**13. Teatime** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A teapot with a matching teacup and saucer, a sugar bowl with two sugar cubes, a teaspoon, and a round biscuit with three dots on a small plate. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> The single most 'cozy' object cluster in the book. Also your best A+ Content / ad image.
+
+**14. Mixing Bowl** - Object vignette - 6-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A large mixing bowl with a whisk standing in it, a wooden spoon leaning against the rim, a measuring cup, a cracked eggshell, and a small pile of flour. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> CUT LIST candidate - overlaps page 11 (Baking Day).
+
+**15. The Hearth** - Hero scene - 10-12 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A stone fireplace with a crackling log fire, a kettle hanging from a crane hook over the flames, a fire poker leaning at the side, and a cat curled asleep on the hearth rug. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**16. Hanging Herbs** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A wooden beam above a kitchen counter with three bundles of dried herbs hanging upside down, a braid of garlic, and two pans hanging from hooks. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+### Cozy Corners - pages 17-24
+
+**17. The Reading Chair** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A big soft armchair with a chunky knit blanket draped over one arm, an open book resting on the seat, a pair of slippers on the floor, and a small round side table with a mug on it. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Blanket folds = 3-4 thick lines max. This is the page that gets over-detailed most often.
+
+**18. The Window Seat** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A cushioned window seat with three pillows, a cat sitting upright watching a bird outside the window, and a gathered curtain tied back to one side. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**19. The Bookshelf** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A wooden bookshelf with two rows of books, a trailing plant in a pot on the top shelf, a lit candle in a holder, and a small round clock. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> TRAP: book spines must be BLANK rectangles - no titles, no author names.
+
+**20. The Knitting Basket** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A rocking chair with a woven basket beside it holding three balls of yarn, two knitting needles crossed, and a half-knitted scarf spilling over the rim. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**21. The Mantelpiece** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A fireplace mantel with a round wall clock, two candlesticks, a garland of leaves draped along the front edge, and one small framed picture with a blank oval mat inside. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Frame must be EMPTY. Second most common AI failure in this deck.
+
+**22. Hot Cocoa** - Object vignette - 6-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A mug of hot cocoa with three marshmallows floating on top and steam curling up, a plate with two cookies, and a small jug beside them on a round table. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**23. The Braided Rug** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. An oval braided rug on a wooden floor with a basket of logs beside it, a pair of boots, and a sleeping dog curled up in the center of the rug. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**24. The Sewing Table** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A small sewing table with three spools of thread, open scissors, a pincushion with two pins, a folded square of fabric, and a thimble. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> CUT LIST candidate - pins and scissors are the fiddliest shapes in the deck.
+
+### Garden & Greenhouse - pages 25-32
+
+**25. The Pumpkin Cart** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A wooden wheelbarrow filled with three plump pumpkins and two gourds, one pumpkin sitting on the ground beside it, and a few fallen leaves scattered around. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**26. Sunflowers & Can** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A tall galvanized watering can beside two big sunflowers with broad leaves, and three terracotta pots stacked at the base. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**27. The Potting Bench** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A garden potting bench with four seedling pots in a tray, a hand trowel, a ball of twine, and two blank seed packets propped against the bench leg. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> TRAP: seed packets must be BLANK. Same failure mode as pantry jars.
+
+**28. The Beehive** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A beehive made of stacked wooden boxes on a stand with three bees buzzing around it, a patch of clover, and two tall flowers at the sides. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> CUT LIST candidate if you need a fourth cut.
+
+**29. The Birdhouse** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A birdhouse on a tall post with a small round entrance hole, two perched birds, a leafy branch arching over the top, and three berries on the branch. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**30. Washing Day** - Hero scene - 10-12 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A clothesline strung between two posts with three hanging sheets and two towels, a peg bag dangling from the line, a woven laundry basket of folded cloth below, and a gentle breeze shown as two curved lines. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**31. The Mushroom Patch** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A cluster of five toadstool mushrooms with spotted caps, two curling ferns, a snail with a spiral shell, and three smooth stones in the grass. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Spots must be BIG - small dots are the #1 'not bold and easy' complaint.
+
+**32. Apple Ladder** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A wooden ladder leaning into an apple tree with a basket of apples on the ground below, four apples still hanging in the branches, and a few leaves. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+### Bed, Bath & Seasons - pages 33-40
+
+**33. The Quilted Bed** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A made bed with a patchwork quilt folded back, two plump pillows, a sleeping cat curled at the foot, and a small folded blanket on a bench beside the bed. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Quilt patches should be 6-8 large squares, not a grid of 30. Grid = intricate, not easy.
+
+**34. The Nightstand** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A small nightstand with a table lamp, a closed book with a bookmark ribbon, a pair of round glasses, a water carafe with a glass, and a tiny alarm clock. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**35. The Clawfoot Tub** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A clawfoot bathtub with three big bubbles floating above the rim, a lit candle on a stool beside it, a folded towel, and a rubber duck floating at the far end. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**36. The Washstand** - Object vignette - 7-8 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A washstand with a pitcher and basin, a towel hanging from a rail, a round mirror above it, a bar of soap on a dish, and a small sprig of lavender. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> CUT LIST candidate - lowest emotional pull of the group.
+
+**37. The Attic Trunk** - Hero scene - 10-12 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. An open attic trunk with folded quilts spilling out of it, three stacked books, an old lantern, a garland of dried flowers, and a little mouse peeking over the rim. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**38. Snowy Cottage Night** - Hero scene - 10-12 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. The cottage in deep snow with warm glowing windows, a snowman with a scarf and twig arms, three pine trees, and a full moon with five stars. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Second cover-candidate page. Also your winter/seasonal hook for gift listings.
+
+**39. Harvest Porch** - Hero scene - 10-12 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. A cottage porch dressed for harvest with four pumpkins on the steps, a hay bale, two pots of chrysanthemums, a round wreath on the door, and a jug of cider. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+**40. Rainy Doorstep** - Hero scene - 9-11 shapes
+
+```
+Bold and easy coloring book page for adults, cozy cottagecore theme, ONE single centered subject, very thick uniform black outlines, simple flat chunky shapes, large open coloring areas, minimal detail, clean white background, no shading, no gray tones, no fill, no texture, high-contrast pure black and white line art, cute whimsical storybook style, square 1:1 composition, generous 0.5 inch margins, subject centered with breathing room on all sides. The cottage doorstep on a spring day with a pair of rain boots, a closed umbrella leaning against the wall, a puddle reflecting a heart shape, three tulips in a pot, and rain falling as straight dashed lines. NO text, no words, no letters, no numbers, no labels, no watermark, no signature, no frame, no border, no panel layout, no multiple scenes, no shading, no gradient, no hatching, no crosshatching, no stippling, no color, no gray fill, no background scenery, no tiny fiddly details, no photorealism, no 3D render, no blurry or broken lines.
+```
+
+> Closing page. Rain as straight dashed lines keeps it bold and easy - never stippled dots.
+
+---
+
+## 3. Machine-readable files
+
+- `prompts.json` - full deck with group, type, shape budget and per-page notes
+- `prompts.csv` - run sheet: one row per page, paste into a sheet and track status
+
+Files are generated by `build.py`; edit the source there and re-run to regenerate all four.
