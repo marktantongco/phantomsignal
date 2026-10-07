@@ -1,0 +1,21 @@
+{
+  "file": "page-01-the-round-door.print.png",
+  "note": "Style reference. Every later page must stay within these tolerances.",
+  "stroke_px_300dpi": 25.0,
+  "stroke_mm": 2.12,
+  "ink_pct": 14.89,
+  "gray_pct": 0.0,
+  "fiddliness": 26.0,
+  "shapes": 15,
+  "pockets": 38,
+  "pocket_pct": 0.614,
+  "edge_ink_pct": 0.36,
+  "tolerances": {
+    "stroke_pct": 0.35,
+    "ink_pct": 0.35,
+    "gray_pct": 0.5,
+    "fiddliness_pct": 0.45,
+    "shapes_pct": 0.4,
+    "edge_ratio": 3.0
+  }
+}
